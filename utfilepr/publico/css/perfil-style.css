@@ -1,0 +1,47 @@
+.header--bg {
+    height: 150px;
+    width: 100%;
+    background-image: url("../img/photo-blueprint.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.h1__em--color {
+    font-style: normal;
+    color: #ffcc00;
+}
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    padding: 126px;
+    z-index: 100;
+}
+th {
+    position: sticky;
+    top: 0;
+}
+.bg-default {
+    background-color: #112335;
+}
+.edit-photo {
+    position:relative;
+    left:95px;
+    top:30px;
+}
+.input-name {
+    color:white;
+    font-size:1.3em;
+}
+.input-name:focus {
+    color:#ffc107;
+    border:0;
+    font-size:1.3em;
+    box-shadow: none;
+}
+.navbar {
+    background-color: #191310;
+}
+.input-dark {
+}

@@ -1,0 +1,248 @@
+
+
+.stay-on-center {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stay-on-right {
+  position: relative;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  
+}
+
+
+.full {
+  margin: 0;
+  height: 100%;
+}
+
+.utextfpr {
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 3em;
+  color: #ffffff;
+  transform: rotate(-5deg);
+}
+
+
+
+.utextfpr > span {
+  font-size: 1.7em;
+}
+
+.register {
+  font-size: 2.5em;
+  color: white;
+}
+
+
+.brand-logo {
+  height: 1em;  
+}
+
+
+
+.emphase-letter {
+  color: #ffcc00;
+  /* text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white; */
+  /* text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white; */
+}
+
+
+
+
+.button-login-div {
+  position: relative;
+  display: flex;
+  justify-content: end;
+  align-content: center;
+}
+
+#btn-enter {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    color: #191310;
+    background-color: #FFCC00;
+}
+
+html,
+body {
+  background-color:#191310;
+  margin: 0;
+  height: 100%;
+}
+
+.dropstart::marker{
+  display:none;
+}
+
+
+/* Login */
+
+.login-input {
+  padding-bottom: 5vw;
+}
+
+.login-input button {
+  display: flex;
+  justify-self: right;
+}
+
+.button-search {
+  border: 0;
+  background-color: transparent;
+}
+
+.button-search i:hover{
+  color:#ffcc00;
+
+}
+
+.button-search i:active{
+  color:#ffdc4f;
+
+}
+
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+
+.search-bar {
+  background-color: #191310;
+}
+
+.search:focus {
+  border-color: #FFCC00;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0), 0 0 8px #292929;
+}
+
+.nav-item {
+  padding: 0;
+  margin: 0;
+  border-bottom: 4px solid transparent;
+
+}
+
+.nav-item:hover {
+  border-bottom: 4px solid #FFCC00;
+  background-color: transparent;
+
+}
+nav > div {
+  width: 100%;
+  display: inline-flex;
+  justify-content: between;
+  align-items: center;
+  padding: 0;
+
+}
+
+.nav__ul {
+  display:flex;
+  position: relative;
+  justify-content: end;
+  padding: 0 ;
+
+}
+
+
+.nav {
+  height: 50px;
+}
+
+
+.btn--transparent {
+  background-color:transparent;
+}
+
+.serif {
+  font-family: serif;
+}
+
+a {
+  font-style: none;
+  text-decoration: none;
+}
+
+
+.bg-black {
+  background-color: rgb(0, 0, 0);
+}
+
+.bg-black-1 {
+  background-color: rgb(10, 10, 10);
+}
+
+.bg-black-2 {
+  background-color: rgb(20, 20, 20);
+}
+
+.bg-black-3 {
+  background-color: rgb(30, 30, 30);
+}
+
+.bg-black-4 {
+  background-color: rgb(40, 40, 40);
+}
+
+.bg-black-5 {
+  background-color: rgb(50, 50, 50);
+}
+
+.text-default {
+  color: rgb(170, 170, 170);
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+.input-dark {
+  color:grey;
+  border:0;
+  box-shadow: none;
+  background-color: rgb(30, 30, 30);
+
+
+}
+
+.input-dark:focus {
+ 
+  color:white;
+  border: 1px solid white;
+  box-shadow: none;
+  background-color: rgb(10, 10, 10);
+
+
+
+}
+/* Cores
+
+Amarelo
+
+#FFCC00
+#CCA300
+#806E26
+#403300
+
+
+Branco:
+#FFFFFF
+Cinza escuro:
+#191310
+#252525
+Azul:
+#000CFF
+
+
+*/

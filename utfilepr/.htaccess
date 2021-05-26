@@ -1,0 +1,7 @@
+RewriteEngine On
+
+# Se não for para a pasta pública, executa o index.php
+RewriteCond %{REQUEST_FILENAME} !utfilepr/publico/
+RewriteRule ^ index.php
+
+php_value date.timezone 'America/Sao_Paulo'
